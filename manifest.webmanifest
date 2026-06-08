@@ -1,0 +1,34 @@
+{
+  "name": "EWC 영어독해 관리 앱",
+  "short_name": "EWC 독해",
+  "description": "교사는 과제를 관리하고 학생은 영어독해 게임을 수행하는 EWC 앱",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f0e8",
+  "theme_color": "#facc15",
+  "icons": [
+    {
+      "src": "./mk-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "교사용 관리",
+      "short_name": "교사",
+      "description": "학생, 과제, 성과, 리마인드를 관리합니다.",
+      "url": "./index.html?mode=teacher",
+      "icons": [{ "src": "./mk-icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "학생용 학습",
+      "short_name": "학생",
+      "description": "학생이 과제와 영어독해 게임을 수행합니다.",
+      "url": "./index.html?mode=student",
+      "icons": [{ "src": "./mk-icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
